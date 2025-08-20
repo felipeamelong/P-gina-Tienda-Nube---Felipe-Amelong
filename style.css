@@ -127,6 +127,11 @@ header svg{
     fill: #0050c3;
 }
 
+.lista-preguntas svg{
+    min-width: 18px;
+    height: 18px;
+}
+
 /* TEXTO */
 
 
@@ -286,7 +291,10 @@ header div{
 
 .lista-preguntas{
     border-bottom: 0.1px solid rgb(180, 175, 175);
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #logos{
