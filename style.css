@@ -113,6 +113,19 @@ footer{
     height: 24px;
 }
 
+header svg{
+    width: 16px;
+    height: 16px;
+    fill: white;
+    margin-right: 5px;
+}
+
+#sec4-text svg{
+    min-width: 16px;
+    height: 16px;
+    padding-right: 10px;
+    fill: #0050c3;
+}
 
 /* TEXTO */
 
@@ -271,12 +284,6 @@ header div{
     padding-left: 0;   
 }
 
-#sec4-text li{
-    background-image: url(http://www.w3.org/2000/svg);
-    padding-left: 30px;
-    margin-bottom: 30px;
-}
-
 .lista-preguntas{
     border-bottom: 0.1px solid rgb(180, 175, 175);
     padding-bottom: 20px;
@@ -285,4 +292,10 @@ header div{
 #logos{
     display: flex;
     align-items: center;
+}
+
+#sec4-text div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
 }
