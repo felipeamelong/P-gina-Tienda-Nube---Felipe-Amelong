@@ -130,6 +130,7 @@ header svg{
 .lista-preguntas svg{
     min-width: 18px;
     height: 18px;
+    fill: #0050c3;
 }
 
 /* TEXTO */
